@@ -1,0 +1,419 @@
+html {
+    background: linear-gradient(#a3b3cf, #edf0f5);
+}
+
+html, body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    min-height: 100%;
+    overflow-x: hidden;
+}
+
+p {
+    margin: 100px auto 20px;
+    font-family: 'Imperial Script', cursive;
+    text-align: center;
+    font-size: 60px;
+    color: #555555;
+}
+
+.container {
+    position: relative;
+    top: 70px;
+    width: 700px;
+    height: 700px;
+    margin: 0 auto;
+}
+
+.container img {
+    width: 100%;
+    height: 100%;
+}
+
+.container .lights {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: transparent;
+}
+
+.container .lights .light {
+    position: absolute;
+    display: inline-block;
+    color: white;
+    font-size: 16px;
+}
+
+.container .lights .light.on {
+    border: none;
+    -webkit-animation: shine 300ms ease-in-out infinite;
+    -moz-animation: shine 300ms ease-in-out infinite;
+    -o-animation: shine 300ms ease-in-out infinite;
+    animation: shine 300ms ease-in-out infinite;
+}
+
+.container .lights #light16, .container .lights #light48 {
+    font-size: 32px;
+}
+
+.container .lights #light8, .container .lights #light24,
+.container .lights #light40, .container .lights #light56 {
+    font-size: 28px;
+}
+
+.container .lights #light4, .container .lights #light12,
+.container .lights #light20, .container .lights #light28,
+.container .lights #light36, .container .lights #light44,
+.container .lights #light52, .container .lights #light60 {
+    font-size: 24px;
+}
+
+.container .lights #light2, .container .lights #light6,
+.container .lights #light10, .container .lights #light14,
+.container .lights #light18, .container .lights #light22,
+.container .lights #light26, .container .lights #light30,
+.container .lights #light34, .container .lights #light38,
+.container .lights #light42, .container .lights #light46,
+.container .lights #light50, .container .lights #light54,
+.container .lights #light58, .container .lights #light62 {
+    font-size: 20px;
+}
+
+.container .lights #light1 {
+    bottom: 100px;
+    left: 95px;
+}
+
+.container .lights #light2 {
+    bottom: 215px;
+    left: 150px;
+}
+
+.container .lights #light3 {
+    bottom: 118px;
+    left: 112px;
+}
+
+.container .lights #light4 {
+    top: 360px;
+    left: 185px;
+}
+
+.container .lights #light5 {
+    bottom: 140px;
+    left: 128px;
+}
+
+.container .lights #light6 {
+    bottom: 245px;
+    left: 182px;
+}
+
+.container .lights #light7 {
+    bottom: 160px;
+    left: 148px;
+}
+
+.container .lights #light8 {
+    top: 250px;
+    left: 230px;
+}
+
+.container .lights #light9 {
+    bottom: 175px;
+    left: 168px;
+}
+
+.container .lights #light10 {
+    bottom: 270px;
+    left: 217px;
+}
+
+.container .lights #light11 {
+    bottom: 185px;
+    left: 195px;
+}
+
+.container .lights #light12 {
+    top: 325px;
+    left: 230px;
+}
+
+.container .lights #light13 {
+    bottom: 165px;
+    left: 215px;
+}
+
+.container .lights #light14 {
+    bottom: 243px;
+    left: 243px;
+}
+
+.container .lights #light15 {
+    bottom: 140px;
+    left: 220px;
+}
+
+.container .lights #light16 {
+    top: 112px;
+    left: 315px;
+}
+
+.container .lights #light17 {
+    bottom: 120px;
+    left: 200px;
+}
+
+.container .lights #light18 {
+    bottom: 215px;
+    left: 272px;
+}
+
+.container .lights #light19 {
+    bottom: 98px;
+    left: 215px;
+}
+
+.container .lights #light20 {
+    top: 350px;
+    left: 280px;
+}
+
+.container .lights #light21 {
+    bottom: 85px;
+    left: 240px;
+}
+
+.container .lights #light22 {
+    bottom: 231px;
+    left: 303px;
+}
+
+.container .lights #light23 {
+    bottom: 93px;
+    left: 263px;
+}
+
+.container .lights #light24 {
+    top: 220px;
+    left: 310px;
+}
+
+.container .lights #light25 {
+    bottom: 97px;
+    left: 285px;
+}
+
+.container .lights #light26 {
+    bottom: 253px;
+    left: 325px;
+}
+
+.container .lights #light27 {
+    bottom: 115px;
+    left: 303px;
+}
+
+.container .lights #light28 {
+    top: 325px;
+    left: 325px;
+}
+
+.container .lights #light29 {
+    bottom: 140px;
+    left: 315px;
+}
+
+.container .lights #light30 {
+    bottom: 270px;
+    left: 354px;
+}
+
+.container .lights #light31 {
+    bottom: 165px;
+    left: 330px;
+}
+
+.container .lights #light32 {
+    top: -32px;
+    left: 334px;
+    font-size: 60px;
+}
+
+.container .lights #light33 {
+    bottom: 180px;
+    left: 355px;
+}
+
+.container .lights #light34 {
+    bottom: 249px;
+    left: 387px;
+}
+
+.container .lights #light35 {
+    bottom: 165px;
+    left: 380px;
+}
+
+.container .lights #light36 {
+    top: 345px;
+    left: 375px;
+}
+
+.container .lights #light37 {
+    bottom: 142px;
+    left: 397px;
+}
+
+.container .lights #light38 {
+    bottom: 222px;
+    left: 408px;
+}
+
+.container .lights #light39 {
+    bottom: 118px;
+    left: 412px;
+}
+
+.container .lights #light40 {
+    top: 260px;
+    left: 380px;
+}
+
+.container .lights #light41 {
+    bottom: 100px;
+    left: 432px;
+}
+
+.container .lights #light42 {
+    bottom: 202px;
+    left: 435px;
+}
+
+.container .lights #light43 {
+    bottom: 92px;
+    left: 458px;
+}
+
+.container .lights #light44 {
+    top: 365px;
+    left: 420px;
+}
+
+.container .lights #light45 {
+    bottom: 90px;
+    left: 485px;
+}
+
+.container .lights #light46 {
+    bottom: 215px;
+    left: 465px;
+}
+
+.container .lights #light47 {
+    bottom: 100px;
+    left: 508px;
+}
+
+.container .lights #light48 {
+    top: 130px;
+    left: 390px;
+}
+
+.container .lights #light49 {
+    bottom: 120px;
+    left: 525px;
+}
+
+.container .lights #light50 {
+    bottom: 240px;
+    left: 490px;
+}
+
+.container .lights #light51 {
+    bottom: 138px;
+    left: 505px;
+}
+
+.container .lights #light52 {
+    top: 330px;
+    left: 450px;
+}
+
+.container .lights #light53 {
+    bottom: 165px;
+    left: 502px;
+}
+
+.container .lights #light54 {
+    bottom: 265px;
+    left: 515px;
+}
+
+.container .lights #light55 {
+    bottom: 183px;
+    left: 528px;
+}
+
+.container .lights #light56 {
+    top: 240px;
+    left: 450px;
+}
+
+.container .lights #light57 {
+    bottom: 167px;
+    left: 555px;
+}
+
+.container .lights #light58 {
+    bottom: 237px;
+    left: 540px;
+}
+
+.container .lights #light59 {
+    bottom: 142px;
+    left: 567px;
+}
+
+.container .lights #light60 {
+    top: 348px;
+    left: 493px;
+}
+
+.container .lights #light61 {
+    bottom: 127px;
+    left: 592px;
+}
+
+.container .lights #light62 {
+    bottom: 208px;
+    left: 565px;
+}
+
+.container .lights #light63 {
+    bottom: 105px;
+    left: 608px;
+}
+
+@-webkit-keyframes shine {
+    from { transform: scale(1); }
+    to { transform: scale(1.35); }
+}
+
+@-moz-keyframes shine {
+    from { transform: scale(1); }
+    to { transform: scale(1.35); }
+}
+
+@-o-keyframes shine {
+    from { transform: scale(1); }
+    to { transform: scale(1.35); }
+}
+
+@keyframes shine {
+    from { transform: scale(1); }
+    to { transform: scale(1.35); }
+}

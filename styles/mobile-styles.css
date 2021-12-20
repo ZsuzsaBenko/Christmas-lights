@@ -1,0 +1,359 @@
+@media screen and (max-width: 767px) {
+    .container {
+        top: 90px;
+        width: 350px;
+        height: 350px;
+    }
+
+    p {
+        font-size: 40px;
+        margin: 120px auto 20px;
+    }
+
+    .container .lights .light {
+        font-size: 12px;
+    }
+
+    .container .lights #light16, .container .lights #light48 {
+        font-size: 20px;
+    }
+
+    .container .lights #light8, .container .lights #light24,
+    .container .lights #light40, .container .lights #light56 {
+        font-size: 18px;
+    }
+
+    .container .lights #light4, .container .lights #light12,
+    .container .lights #light20, .container .lights #light28,
+    .container .lights #light36, .container .lights #light44,
+    .container .lights #light52, .container .lights #light60 {
+        font-size: 16px;
+    }
+
+    .container .lights #light2, .container .lights #light6,
+    .container .lights #light10, .container .lights #light14,
+    .container .lights #light18, .container .lights #light22,
+    .container .lights #light26, .container .lights #light30,
+    .container .lights #light34, .container .lights #light38,
+    .container .lights #light42, .container .lights #light46,
+    .container .lights #light50, .container .lights #light54,
+    .container .lights #light58, .container .lights #light62 {
+        font-size: 14px;
+    }
+
+    .container .lights #light1 {
+        bottom: 50px;
+        left: 46px;
+    }
+
+    .container .lights #light2 {
+        bottom: 106px;
+        left: 77px;
+    }
+
+    .container .lights #light3 {
+        bottom: 61px;
+        left: 59px;
+    }
+
+    .container .lights #light4 {
+        top: 175px;
+        left: 92px;
+    }
+
+    .container .lights #light5 {
+        bottom: 73px;
+        left: 71px;
+    }
+
+    .container .lights #light6 {
+        bottom: 118px;
+        left: 89px;
+    }
+
+    .container .lights #light7 {
+        bottom: 85px;
+        left: 83px;
+    }
+
+    .container .lights #light8 {
+        top: 115px;
+        left: 117px;
+    }
+
+    .container .lights #light9 {
+        bottom: 91px;
+        left: 97px;
+    }
+
+    .container .lights #light10 {
+        bottom: 129px;
+        left: 103px;
+    }
+
+    .container .lights #light11 {
+        bottom: 90px;
+        left: 111px;
+    }
+
+    .container .lights #light12 {
+        top: 155px;
+        left: 115px;
+    }
+
+    .container .lights #light13 {
+        bottom: 80px;
+        left: 120px;
+    }
+
+    .container .lights #light14 {
+        bottom: 123px;
+        left: 120px;
+    }
+
+    .container .lights #light15 {
+        bottom: 67px;
+        left: 115px;
+    }
+
+    .container .lights #light16 {
+        top: 45px;
+        left: 155px;
+    }
+
+    .container .lights #light17 {
+        bottom: 57px;
+        left: 104px;
+    }
+
+    .container .lights #light18 {
+        bottom: 108px;
+        left: 130px;
+    }
+
+    .container .lights #light19 {
+        bottom: 45px;
+        left: 109px;
+    }
+
+    .container .lights #light20 {
+        top: 170px;
+        left: 140px;
+    }
+
+    .container .lights #light21 {
+        bottom: 48px;
+        left: 122px;
+    }
+
+    .container .lights #light22 {
+        bottom: 102px;
+        left: 145px;
+    }
+
+    .container .lights #light23 {
+        bottom: 54px;
+        left: 135px;
+    }
+
+    .container .lights #light24 {
+        top: 102px;
+        left: 155px;
+    }
+
+    .container .lights #light25 {
+        bottom: 65px;
+        left: 144px;
+    }
+
+    .container .lights #light26 {
+        bottom: 116px;
+        left: 155px;
+    }
+
+    .container .lights #light27 {
+        bottom: 76px;
+        left: 153px;
+    }
+
+    .container .lights #light28 {
+        top: 158px;
+        left: 170px;
+    }
+
+    .container .lights #light29 {
+        bottom: 86px;
+        left: 163px;
+    }
+
+    .container .lights #light30 {
+        bottom: 129px;
+        left: 165px;
+    }
+
+    .container .lights #light31 {
+        bottom: 89px;
+        left: 175px;
+    }
+
+    .container .lights #light32 {
+        left: 160px;
+        top: -28px;
+        font-size: 42px;
+    }
+
+    .container .lights #light33 {
+        bottom: 85px;
+        left: 187px;
+    }
+
+    .container .lights #light34 {
+        bottom: 134px;
+        left: 179px;
+    }
+
+    .container .lights #light35 {
+        bottom: 75px;
+        left: 195px;
+    }
+
+    .container .lights #light36 {
+        top: 170px;
+        left: 198px;
+    }
+
+    .container .lights #light37 {
+        bottom: 65px;
+        left: 203px;
+    }
+
+    .container .lights #light38 {
+        bottom: 126px;
+        left: 194px;
+    }
+
+    .container .lights #light39 {
+        bottom: 55px;
+        left: 210px;
+    }
+
+    .container .lights #light40 {
+        top: 122px;
+        left: 187px;
+    }
+
+    .container .lights #light41 {
+        bottom: 48px;
+        left: 220px;
+    }
+
+    .container .lights #light42 {
+        bottom: 111px;
+        left: 205px;
+    }
+
+    .container .lights #light43 {
+        bottom: 46px;
+        left: 233px;
+    }
+
+    .container .lights #light44 {
+        top: 182px;
+        left: 222px;
+    }
+
+    .container .lights #light45 {
+        bottom: 50px;
+        left: 245px;
+    }
+
+    .container .lights #light46 {
+        bottom: 98px;
+        left: 217px;
+    }
+
+    .container .lights #light47 {
+        bottom: 62px;
+        left: 250px;
+    }
+
+    .container .lights #light48 {
+        top: 57px;
+        left: 190px;
+    }
+
+    .container .lights #light49 {
+        bottom: 69px;
+        left: 239px;
+    }
+
+    .container .lights #light50 {
+        bottom: 112px;
+        left: 235px;
+    }
+
+    .container .lights #light51 {
+        bottom: 82px;
+        left: 238px;
+    }
+
+    .container .lights #light52 {
+        top: 160px;
+        left: 232px;
+    }
+
+    .container .lights #light53 {
+        bottom: 89px;
+        left: 249px;
+    }
+
+    .container .lights #light54 {
+        bottom: 122px;
+        left: 248px;
+    }
+
+    .container .lights #light55 {
+        bottom: 87px;
+        left: 262px;
+    }
+
+    .container .lights #light56 {
+        top: 112px;
+        left: 218px;
+    }
+
+    .container .lights #light57 {
+        bottom: 82px;
+        left: 273px;
+    }
+
+    .container .lights #light58 {
+        bottom: 113px;
+        left: 265px;
+    }
+
+    .container .lights #light59 {
+        bottom: 73px;
+        left: 285px;
+    }
+
+    .container .lights #light60 {
+        top: 175px;
+        left: 254px;
+    }
+
+    .container .lights #light61 {
+        bottom: 62px;
+        left: 295px;
+    }
+
+    .container .lights #light62 {
+        bottom: 100px;
+        left: 280px;
+    }
+
+    .container .lights #light63 {
+        bottom: 52px;
+        left: 305px;
+    }
+}
